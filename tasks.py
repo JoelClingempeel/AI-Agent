@@ -78,7 +78,7 @@ TEXT_TASK_DATA = ("[text]",
 
 ### USER INPUT TASKS ###
 
-def input_task(task):
+def input_task(task, context):
     print("User input is required. Please do the following.")
     print(task)
     return (input("Input: "), "")
